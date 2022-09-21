@@ -1,0 +1,55 @@
+
+.company-item {
+  display: flex;
+}
+.company-item .company-logo {
+  padding: 16px 16px 0 0;
+}
+.company-item .company-logo > img {
+  width: 48px;
+  height: 48px;
+}
+.company-item .company-detail {
+  padding: 16px 0;
+  font-size: 12px;
+  color: #828282;
+}
+.company-detail .designation {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+.company-detail .role {
+  display: none;
+}
+
+@media all and (max-width: 425px) {
+
+}
+
+@media all and (min-width: 767px) {
+  .company-item .company-logo {
+    padding: 16px;
+  }
+  .company-item .company-logo > img {
+    width: 84px;
+    height: 84px;
+  }
+  .company-item .company-detail {
+    font-size: 14px;
+  }
+  .company-detail .designation {
+    font-size: 16px;
+  }
+  .company-detail .role {
+    display: block;
+  }
+}
+
+@media all and (min-width: 1023px) {
+
+}
+
+@media all and (min-width: 1399px) {
+
+}

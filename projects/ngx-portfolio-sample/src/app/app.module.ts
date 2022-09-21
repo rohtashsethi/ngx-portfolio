@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxPortfolioModule } from 'ngx-portfolio';
+import { NgxPortfolioModule } from 'projects/ngx-portfolio/src/lib/ngx-portfolio.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

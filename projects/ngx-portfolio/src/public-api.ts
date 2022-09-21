@@ -5,3 +5,4 @@
 export * from './lib/ngx-portfolio.service';
 export * from './lib/ngx-portfolio.component';
 export * from './lib/ngx-portfolio.module';
+export * from './lib/shared/models';

@@ -1,0 +1,14 @@
+<article *ngIf="experience" class="company-item">
+  <div class="company-logo">
+    <img src="assets/images/{{experience.logoImage}}" width="84" height="84" />
+  </div>
+  <div class="company-detail">
+    <div class="designation">
+      {{experience.designation}} @ {{experience.company}}
+    </div>
+    <div class="work-duration">{{experience.startDate}} - {{experience.endDate}}</div>
+    <ul class="role">
+      <li *ngFor="let s of experience.summary">{{s}}</li>
+    </ul>
+  </div>
+</article>

@@ -1,0 +1,13 @@
+<div *ngIf="portfolio" class="container">
+  <intro [intro]="portfolio.intro"></intro>
+  <div class="prof-details">
+    <aside>
+      <lib-skills [skills]="portfolio.skills"></lib-skills>
+      <lib-hobbies></lib-hobbies>
+    </aside>
+    <main class="aside-right">
+      <lib-work-experience [workEx]="portfolio.workExperience"></lib-work-experience>
+    </main>
+  </div>
+  <lib-projects></lib-projects>
+</div>

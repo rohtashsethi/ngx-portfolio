@@ -1,0 +1,110 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+.intro .dp {
+  text-align: center;
+}
+.intro .dp img {
+  width: 100%;
+  max-width: 270px;
+}
+.intro .bio {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.intro .bio .info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #4f4f4f;
+}
+.intro .bio .info .name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.intro .bio .info .role {
+  color: #828282;
+}
+
+.intro .bio .info .material-icons {
+  font-size: 14px;
+  margin-right: 16px;
+}
+.intro .bio .info .contact > div {
+  display: flex;
+  align-items: center;
+}
+.intro .bio .info .contact a{
+  text-decoration: none;
+  color: #4f4f4f
+}
+.intro .bio .info .email {
+  line-height: 29px;
+}
+.intro .bio .summary {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #828282;
+}
+
+@media all and (max-width: 425px) {
+  .intro .bio {
+    text-align: center;
+  }
+  .intro .bio .info .contact > div {
+    justify-content: center;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .intro {
+    flex-direction: row;
+  }
+  .intro .dp {
+    width: 50%;
+    margin-right: 10px;
+  }
+  .intro .bio {
+    width: 50%;
+  }
+}
+
+@media all and (min-width: 1023px) {
+  .card {
+    padding: 24px;
+  }
+  .intro {
+    flex-direction: row;
+  }
+  .intro .dp {
+    width: 30%;
+    margin-right: 10px;
+  }
+  .intro .bio {
+    padding-left: 22px;
+    width: 70%;
+    font-size: 18px;
+  }
+  .intro .bio .info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .intro .bio .info .name {
+  }
+  .intro .bio .info .material-icons {
+    font-size: 18px;
+  }
+}
+
+@media all and (min-width: 1399px) {
+}

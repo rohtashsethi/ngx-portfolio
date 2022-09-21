@@ -1,0 +1,66 @@
+.skill-item {
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-item .skill-name {
+  width: 50%;
+  font-size: 14px;
+  color: #4f4f4f;
+}
+.skill-item .skill-meter {
+  width: 60%;
+  height: 10px;
+  border-radius: 12px;
+  background: #c4c4c4;
+}
+.skill-meter .meter {
+  width: 0;
+  height: 100%;
+  background-color: #2f80ed;
+  border-radius: 12px;
+}
+.skill-meter .meter.w-10 {
+  width: 10%;
+}
+.skill-meter .meter.w-20 {
+  width: 20%;
+}
+.skill-meter .meter.w-30 {
+  width: 30%;
+}
+.skill-meter .meter.w-40 {
+  width: 40%;
+}
+.skill-meter .meter.w-50 {
+  width: 50%;
+}
+.skill-meter .meter.w-60 {
+  width: 60%;
+}
+.skill-meter .meter.w-70 {
+  width: 70%;
+}
+.skill-meter .meter.w-80 {
+  width: 80%;
+}
+.skill-meter .meter.w-90 {
+  width: 90%;
+}
+.skill-meter .meter.w-100 {
+  width: 100%;
+}
+
+@media all and (max-width: 425px) { }
+
+@media all and (min-width: 767px) {
+  .skill-item .skill-name {
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 1023px) {
+}
+
+@media all and (min-width: 1399px) { }

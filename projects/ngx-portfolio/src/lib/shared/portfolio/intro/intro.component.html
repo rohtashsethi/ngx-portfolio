@@ -1,0 +1,28 @@
+<div *ngIf="intro" class="card intro">
+  <div class="dp">
+    <img src="assets/images/{{intro.avatarImage}}" />
+  </div>
+  <div class="bio">
+    <div class="info">
+      <div class="personal">
+        <div class="name">{{ intro.name }}</div>
+        <div class="role">{{ intro.profession }}</div>
+      </div>
+      <div class="contact">
+        <div class="email">
+          <span class="material-icons">email</span>
+          <a href="mailto:{{intro.email}}">{{ intro.email }}</a>
+        </div>
+        <div class="phone">
+          <span class="material-icons">phone</span>
+          <a href="tel:+91{{intro.phoneNo}}">(+91) {{ intro.phoneNo }}</a>
+        </div>
+      </div>
+    </div>
+    <div class="summary">
+      <p *ngFor="let b of intro.bio">
+        {{b}}
+      </p>
+    </div>
+  </div>
+</div>
