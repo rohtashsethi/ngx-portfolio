@@ -4,15 +4,21 @@ import { NgxPortfolioModule } from 'projects/ngx-portfolio/src/lib/ngx-portfolio
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SamplePortfolioComponent } from './sample-portfolio/sample-portfolio.component';
+import { SampleButtonComponent } from './sample-button/sample-button.component';
+import { ButtonModule } from 'projects/ngx-portfolio/src/lib/shared/button/button.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SamplePortfolioComponent,
+    SampleButtonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxPortfolioModule
+    NgxPortfolioModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

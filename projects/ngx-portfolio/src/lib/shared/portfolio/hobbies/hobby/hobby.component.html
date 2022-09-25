@@ -1,0 +1,5 @@
+<div *ngIf="hobby" class="hobby">
+  <img *ngIf="hobby.logoImage" src="assets/images/{{hobby.logoImage}}" height="100" alt="hobby logo" />
+  <div class="hobby-name"> {{ hobby.name }} </div>
+  <div class="hobby-desc"> {{ hobby.description }} </div>
+</div>

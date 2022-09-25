@@ -2,4 +2,8 @@
   <div class="card">
     <header>Projects</header>
   </div>
+
+  <div class="project-list">
+    <lib-project *ngFor="let p of projects" [project]="p"></lib-project>
+  </div>
 </section>

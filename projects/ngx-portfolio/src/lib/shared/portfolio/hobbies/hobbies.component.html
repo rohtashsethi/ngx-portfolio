@@ -1,5 +1,8 @@
 <section class="hobbies">
   <div class="card">
     <header>Hobbies</header>
+    <div class="hobby-list">
+      <lib-hobby *ngFor="let h of hobbies" [hobby]="h"></lib-hobby>
+    </div>
   </div>
 </section>

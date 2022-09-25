@@ -9,6 +9,10 @@ import { PortfolioComponent } from './shared/portfolio/portfolio.component';
 import { CommonModule } from '@angular/common';
 import { SkillComponent } from './shared/portfolio/skills/skill/skill.component';
 import { ExperienceComponent } from './shared/portfolio/work-experience/experience/experience.component';
+import { HobbyComponent } from './shared/portfolio/hobbies/hobby/hobby.component';
+import { ProjectFilterComponent } from './shared/portfolio/projects/project-filter/project-filter.component';
+import { ProjectComponent } from './shared/portfolio/projects/project/project.component';
+import { ProjectTagsComponent } from './shared/portfolio/projects/project-tags/project-tags.component';
 
 
 
@@ -22,7 +26,11 @@ import { ExperienceComponent } from './shared/portfolio/work-experience/experien
     ProjectsComponent,
     PortfolioComponent,
     SkillComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    HobbyComponent,
+    ProjectFilterComponent,
+    ProjectComponent,
+    ProjectTagsComponent
   ],
   imports: [
     CommonModule

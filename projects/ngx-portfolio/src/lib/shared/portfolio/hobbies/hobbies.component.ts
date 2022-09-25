@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Hobby } from './../../models'
 
 @Component({
   selector: 'lib-hobbies',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hobbies.component.css']
 })
 export class HobbiesComponent implements OnInit {
+
+  @Input() hobbies: Hobby[] = [];
 
   constructor() { }
 

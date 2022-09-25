@@ -7,6 +7,13 @@
   width: 100%;
 }
 
+.hobby-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px 0;
+}
+
 @media all and (min-width: 1023px) {
   .hobbies {
     width: 100%;

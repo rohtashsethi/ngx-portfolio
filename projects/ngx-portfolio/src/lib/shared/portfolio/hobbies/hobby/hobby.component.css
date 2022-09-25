@@ -1,0 +1,14 @@
+.hobby-name {
+  margin-bottom: 10px;
+}
+
+.hobby-desc {
+  color: #828282;
+  font-size: 12px;
+}
+
+@media all and (min-width: 1023px) {
+  .hobby-desc {
+    font-size: 14px;
+  }
+}

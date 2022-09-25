@@ -1,0 +1,10 @@
+<div *ngIf="project" class="card">
+  <img *ngIf="project.logoImage" src="assets/images/{{project.logoImage}}" height="100" alt="project logo" />
+  <div> Projects tags </div>
+  <div class="project-name"> {{ project.name }} </div>
+  <div class="project-desc"> {{ project.description }} </div>
+  <div class="project-actions">
+    <lib-button type="primary" label="Demo"> </lib-button>
+    <lib-button type="secondary" label="Code"> </lib-button>
+  </div>
+</div>

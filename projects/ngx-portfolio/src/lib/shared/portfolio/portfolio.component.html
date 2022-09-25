@@ -3,11 +3,11 @@
   <div class="prof-details">
     <aside>
       <lib-skills [skills]="portfolio.skills"></lib-skills>
-      <lib-hobbies></lib-hobbies>
+      <lib-hobbies [hobbies]="portfolio.hobbies" ></lib-hobbies>
     </aside>
     <main class="aside-right">
       <lib-work-experience [workEx]="portfolio.workExperience"></lib-work-experience>
     </main>
   </div>
-  <lib-projects></lib-projects>
+  <lib-projects [projects]="portfolio.projects"></lib-projects>
 </div>
